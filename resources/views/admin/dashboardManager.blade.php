@@ -25,7 +25,7 @@
                 <i class="bi bi-cart"></i>
               </div>
               <div class="ps-3">
-                <h6>{{ $barang }}</h6>
+          
               </div>
             </div>
           </div>

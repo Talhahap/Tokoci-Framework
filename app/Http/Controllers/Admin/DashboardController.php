@@ -18,7 +18,6 @@ class DashboardController extends Controller
         $data=[
             'title' => "Dashboard Manager",
             'pelanggan' => User::all()->count(),
-            'barang' => DB::table('products')->count(),
             'karyawan' => Employee::all()->count()
         ];
 

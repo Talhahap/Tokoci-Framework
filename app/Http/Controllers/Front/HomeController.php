@@ -42,7 +42,6 @@ class HomeController extends Controller
             'monitor' => Monitor::all(),
             'merk' => Brand::all(),
             'case' => ComputerCase::all(),
-            'processor' => Processor::all(),
             'gpu' => GraphicCard::all(),
             'memory' => Memory::all(),
             'storage' => Storage::all(),

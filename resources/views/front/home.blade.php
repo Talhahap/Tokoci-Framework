@@ -178,7 +178,7 @@
                         <div class="tab-pane  show fade" id="komponen-pros">
                             <div class="slider-fouc">
                                 <div class="products-slider owl-carousel" data-item="4">
-                                    @foreach ($processor as $data)
+                               
                                         <div class="item">
                                             <div class="image-container">
                                                 <a class="item-img-wrapper-link"
@@ -203,7 +203,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    @endforeach
+                                
                                 </div>
                             </div>
                         </div>
